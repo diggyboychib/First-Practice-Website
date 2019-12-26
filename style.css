@@ -191,3 +191,37 @@ textarea{
     height: 20px;
     width: 20px;
 }
+
+@media (max-width:800px){
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    #search{
+        width: 400px;
+    }
+    h1{
+     font-size: 2rem;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .head-btn{
+        width:80%
+    }
+    form{
+        margin: 0 auto;
+    }
+} 
+
+@media (max-width:650px){
+    #search{
+        width: 250px;
+    }
+    form{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
